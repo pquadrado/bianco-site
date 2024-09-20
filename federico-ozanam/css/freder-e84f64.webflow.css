@@ -3785,3 +3785,9 @@ a {
     max-width: 300px;
   }
 }
+
+@media screen and (max-width: 540px){
+  .cell-6{
+    padding-left: 2rem;
+  }
+}
