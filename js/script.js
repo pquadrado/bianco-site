@@ -34,3 +34,26 @@ closeButtons.forEach((btn, index) => {
       modals[index].style.display = "none";
   });
 });
+
+function sendEmail(){
+  const params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    tel: document.getElementById("tel").value,
+    mensagem: document.getElementById("mensagem").value,
+  }
+
+  const serviceId = "service_6kphzba"
+  const templateId = "template_8vhkpkp"
+
+  emailjs.send(serviceId, templateId, params).then(
+    (res) => {
+      alert("Foi enviado com sucesso!")
+    }
+  ).catch((err) => console.log(err))
+}
+
+document.getElementById("email-form").addEventListener("submit", function(event){
+  event.preventDefault()
+  sendEmail()
+})

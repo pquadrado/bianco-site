@@ -18,13 +18,22 @@
 <body>
   <header class="cabecalho">
     <div class="image-header">
-      <img src="./images/Bianco-Branco.png" alt="Imagem da bianco" class="imagem-header"/>
+      <img src="./images/logo-bianco.webp" alt="Imagem da bianco" class="imagem-header"/>
     </div>
     <div class="menu-icon" onclick="toggleMenu()">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#f27f00" viewBox="0 0 256 256">
           <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
       </svg>
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "n4_frKLmjJvlZKrdw",
+        });
+      })();
+    </script>
     <nav class="direcionamento" id="menu">
       <a href="../index.html" class="direction-itens">Home</a>
       <a href="../sobre-nos.html" class="direction-itens">Sobre nós</a>
@@ -159,11 +168,11 @@
       </div>
       <div class="forms-bianco">
         <h2 class="title-contato">Feedbacks</h2>
-        <form action="" class="formulario-bianco">
-          <input type="text" name="name" id="" placeholder="Nome" class="input-info design-inputs">
-          <input type="text" name="email" id="" placeholder="Email" class="input-info design-inputs">
-          <input type="text" name="tel" id="" placeholder="Telefone" class="input-info design-inputs">
-          <textarea name="mensagem" id="" rows="4" cols="50" style="width: 20rem;" placeholder="Mensagem"
+        <form action="" class="formulario-bianco" id="email-form">
+          <input type="text" name="name" id="name" placeholder="Nome" class="input-info design-inputs">
+          <input type="text" name="email" id="email" placeholder="Email" class="input-info design-inputs">
+          <input type="text" name="tel" id="tel" placeholder="Telefone" class="input-info design-inputs">
+          <textarea name="mensagem" id="mensagem" rows="4" cols="50" style="width: 20rem;" placeholder="Mensagem"
             class="design-inputs"></textarea>
           <button type="submit" class="button-submit">Enviar</button>
         </form>

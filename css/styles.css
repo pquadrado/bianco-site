@@ -174,7 +174,7 @@ body, html{
 .lotes{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center !important;
   flex-direction: column;
   background-color: #fff;
   color: black;
@@ -919,6 +919,11 @@ input:focus, textarea:focus{
   }
   .title-edificios, .title-planta{
     margin-left: 10rem;
+  }
+  .image-fundacoes a, .image-bianco a, .image-vibrato a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
