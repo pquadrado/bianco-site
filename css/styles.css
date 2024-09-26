@@ -167,8 +167,13 @@ body, html{
 }
 
 .title-box{
+  font-size: 21px;
   margin-top: 1rem;
   margin-bottom: -0.2rem;
+}
+
+.lotes-empreendimentos p {
+  font-size: 17px;
 }
 
 .lotes{
@@ -577,6 +582,7 @@ input:focus, textarea:focus{
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
+  font-size: 17px;
 }
 
 .div-obras{
@@ -593,6 +599,7 @@ input:focus, textarea:focus{
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
+  font-size: 17px;
 }
 
 .div-lancamentos{
@@ -609,6 +616,7 @@ input:focus, textarea:focus{
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
+  font-size: 17px;
 }
 
 .section-empreendimentos .imagem-destaque{
