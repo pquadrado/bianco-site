@@ -567,9 +567,12 @@ input:focus, textarea:focus{
   color: #fff;
   top: 95px;
   left: 55px;
+  min-width: 169.7px;
+  max-width: 169.7px;
 }
 
 .div-morar p{
+  width: 100%;
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
