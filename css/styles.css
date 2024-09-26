@@ -572,7 +572,7 @@ input:focus, textarea:focus{
   color: #fff;
   top: 95px !important;
   left: 55px !important;
-  min-width: 180x !important;
+  min-width: 180px !important;
   max-width: 180px !important;
 }
 
