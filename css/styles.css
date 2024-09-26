@@ -584,9 +584,12 @@ input:focus, textarea:focus{
   color: #fff;
   top: 95px;
   left: 89px;
+  min-width: 98.11px;
+  max-width: 98.11px;
 }
 
 .div-obras p{
+  text-align: center;
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
@@ -597,9 +600,12 @@ input:focus, textarea:focus{
   color: #fff;
   top: 95px;
   left: 74px;
+  min-width: 127.55px;
+  max-width: 127.55px;
 }
 
 .div-lancamentos p{
+  text-align: center;
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
