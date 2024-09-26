@@ -572,13 +572,13 @@ input:focus, textarea:focus{
   color: #fff;
   top: 95px;
   left: 55px;
-  min-width: 169.7px;
-  max-width: 169.7px;
+  min-width: 169.7px !important;
+  max-width: 169.7px !important;
 }
 
 .div-morar p{
-  text-align: center;
-  width: 100%;
+  text-align: center !important;
+  width: 100% !important;
   background-color: #f27f00;
   padding: 0.6rem;
   border-radius: 11px;
