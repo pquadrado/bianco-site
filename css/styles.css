@@ -243,7 +243,7 @@ body, html{
 }
 
 .lotes-empreendimentos{
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .button-border{
@@ -568,20 +568,20 @@ input:focus, textarea:focus{
 }
 
 .div-morar{
-  position: relative;
+  position: relative !important;
   color: #fff;
-  top: 95px;
-  left: 55px;
-  min-width: 169.7px !important;
-  max-width: 169.7px !important;
+  top: 95px !important;
+  left: 55px !important;
+  min-width: 180x !important;
+  max-width: 180px !important;
 }
 
 .div-morar p{
   text-align: center !important;
   width: 100% !important;
-  background-color: #f27f00;
-  padding: 0.6rem;
-  border-radius: 11px;
+  background-color: #f27f00 !important;
+  padding: 0.6rem !important;
+  border-radius: 11px !important;
   font-size: 17px !important;
 }
 
